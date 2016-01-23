@@ -3,7 +3,7 @@ import getopt
 import aerospike
 
 
-HELP = 'aerospike-scan.py -o <operation> -h <host> -p <port> -n <namespace> -s <set>'
+HELP = 'aerospike-helper.py -o <operation> -h <host> -p <port> -n <namespace> -s <set>'
 
 
 def print_result((key, metadata, record)):
